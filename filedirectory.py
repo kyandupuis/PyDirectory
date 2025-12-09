@@ -36,7 +36,7 @@ def fileDirectory():
                 (print('invalid file name'))
 
             if which.lower() in files or which.lower()+'.txt' in files:
-                what = input("What would you like to do to the file: ")
+                what = input("What would you like to do to the file? (read, write, or append): ")
                 try:
                     what = str(what)
                 except:
